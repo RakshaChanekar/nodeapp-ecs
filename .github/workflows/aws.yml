@@ -35,7 +35,7 @@ env:
   ECR_REPOSITORY: myecr-repo              # set this to your Amazon ECR repository name
   ECS_SERVICE: Task-def-service-457n14fr                 # set this to your Amazon ECS service name
   ECS_CLUSTER: beloved-kangaroo-45qp42                # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: MY_ECS_TASK_DEFINITION # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: Task-def-revision1.json # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: MY_CONTAINER_NAME           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
